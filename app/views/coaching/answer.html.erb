@@ -1,0 +1,17 @@
+<div class="container text-center">
+  <div class="block">
+    <blockquote class="blockquote">
+      <p class="mb-0"><%= @question %></p>
+      <footer class="blockquote-footer"><cite title="Source Title">You</cite></footer>
+    </blockquote>
+
+    <blockquote class="blockquote">
+      <p class="mb-0"><%= @answer %></p>
+      <footer class="blockquote-footer"><cite title="Source Title">Coach</cite></footer>
+    </blockquote>
+
+    <a href="/ask">Ask a new question</a>
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
+
